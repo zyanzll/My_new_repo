@@ -6,7 +6,7 @@ import plotly.express as px
 st.header('Análisis de Datos de Vehículos')
 
 # Carga el dataset (ajusta la ruta si es necesario)
-car_data = pd.read_csv('/Users/christianbutcher/Desktop/ShinyZ/proyecto_vehicles_backup/vehicles_us.csv')
+car_data = pd.read_csv("vehicles_us.csv")
 
 # Botón para construir histograma
 hist_button = st.button('Construir histograma')
